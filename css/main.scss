@@ -1,8 +1,12 @@
-body {
+body,
+html {
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 section {
+  width: 100%;
   height: 100vh;
   background: #160d0b;
 }
@@ -23,7 +27,7 @@ section.container {
     width: 100vw;
     overflow: hidden;
     background: url("/assets/bg1.jpg");
-    background-size: 110%;
+    background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
